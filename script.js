@@ -6,7 +6,7 @@ request('https://www.bloggingbasics101.com/how-do-i-start-a-blog/', (err, res, h
 		const $ = cheerio.load(html);
 	
 		$('#post-540').each((i, el) => {
-			const title = $(el).find('.entry-header').text();
+			const title = $(el).find('.entry-header').text().replace(/\s\s+/g, '');
 			console.log(title)
 
 		});
