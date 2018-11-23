@@ -1,0 +1,24 @@
+{
+  "name": "node-web-scraping-starter",
+  "version": "1.0.0",
+  "description": "We'll use cheerio which is like jQuery tool for the server used in web scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0sr3ff1jd/node-web-scraping-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N0sr3ff1jd/node-web-scraping-starter/issues"
+  },
+  "homepage": "https://github.com/N0sr3ff1jd/node-web-scraping-starter#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0"
+  }
+}
