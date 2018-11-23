@@ -7,7 +7,8 @@ request('https://www.bloggingbasics101.com/how-do-i-start-a-blog/', (err, res, h
 	
 		$('#post-540').each((i, el) => {
 			const title = $(el).find('.entry-header').text().replace(/\s\s+/g, '');
-			console.log(title)
+			const content = $(el).find('.entry-content').text();
+			console.log(title, content);
 
 		});
 		
